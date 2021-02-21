@@ -2,11 +2,13 @@ import React, { Fragment } from "react";
 import {Link} from 'react-router-dom';
 import '../../../src/index.css';
 import '../../styles/auth/SignUp.css';
+import NavBar from "../../components/layout/NavBar";
 import Footer from "../../components/layout/Footer";
 
 const SignUp = () => {
   return (
     <Fragment>
+      <NavBar/>
       <form 
         className="form-container"
       >

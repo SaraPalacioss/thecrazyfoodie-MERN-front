@@ -8,12 +8,14 @@
   flex-direction: column;
   padding-top: 20px;
   font-size: 00.8rem;
+  font-family: "Montserrat", sans-serif;
 
   padding-bottom: 20px;
   margin: 0 auto;
   max-width: 300px;
   border-radius: 2%;
   margin-top: 20vh;
+  color: white;
 }
 
 .inline-input {

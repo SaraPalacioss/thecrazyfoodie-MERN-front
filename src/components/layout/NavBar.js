@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <Fragment>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           theCrazyFoodie
         </a>
         <button
@@ -66,9 +66,12 @@ const NavBar = () => {
               </a>
             </li>
           </ul>
-          <button>Log in</button>
-          <button>Register</button>
-          {/* <form class="form-inline my-2 my-lg-0">
+          <button class="btn btn-light"><a href="/login">Log in</a></button>
+          <button class="btn btn-light"><a href="/register">Register</a></button>
+
+        </div>
+      </nav>
+                {/* <form class="form-inline my-2 my-lg-0">
             <input
               class="form-control mr-sm-2"
               type="search"
@@ -79,8 +82,6 @@ const NavBar = () => {
               Search
             </button>
           </form> */}
-        </div>
-      </nav>
     </Fragment>
   );
 };
