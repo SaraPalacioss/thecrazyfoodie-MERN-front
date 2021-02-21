@@ -1,0 +1,60 @@
+@import url("https:fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+.form-container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  font-size: 00.8rem;
+
+  padding-bottom: 20px;
+  margin: 0 auto;
+  max-width: 300px;
+  border-radius: 2%;
+  margin-top: 20vh;
+}
+
+.inline-input {
+  margin-bottom: 15px;
+}
+
+.auth-title {
+  margin-bottom: 20px;
+}
+
+.input-style {
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.726);
+  width: 200px;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+input {
+  display: flex;
+  align-items: flex-end;
+}
+
+.button {
+  border-radius: 10%;
+  background-color: black;
+  border: 1px solid tomato;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.link-text {
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.link-text:hover {
+  text-decoration: none;
+  color: rgb(223, 104, 57);
+}
+
+
