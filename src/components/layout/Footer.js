@@ -8,7 +8,7 @@ const Footer = () => {
     <Fragment>
       <footer className="page-footer font-small blue">
         <div className="footer-copyright text-center py-3">
-          © 2020 Created by{" "}
+          ©2021 Created by{" "}
           <a
             className="color-footer"
             style={{ textDecoration: "none" }}

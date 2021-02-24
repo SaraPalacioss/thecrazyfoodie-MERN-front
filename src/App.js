@@ -7,7 +7,9 @@ import SignUp from './components/auth/SignUp';
 
 function App() {
   return (
+
   <Router>
+ 
     <Switch>
       <Route exact path="/" component={Home}/>
       <Route exact path="/login" component={LogIn}/>

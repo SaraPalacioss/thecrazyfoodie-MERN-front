@@ -1,0 +1,11 @@
+.form-style {
+    color: white;
+    background-color: rgba(243, 235, 235, 0.5);
+    width: 500px;
+    border-radius: 25%;
+    margin: 0 auto;
+}
+
+.form-position {
+    margin-top: 25px;
+}
