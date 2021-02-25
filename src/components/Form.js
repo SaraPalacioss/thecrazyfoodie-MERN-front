@@ -6,13 +6,21 @@ const Form = () => {
 
   const [search, saveSearch] = useState({
     name: '',
-    category
+    category: ''
   })
 
   return (
     <div className="form-position">
       <form className="form-style">
         <input
+          className="form-control"
+          type="text"
+          placeholder="Macheroni, Eggs, Pesto,..."
+          readOnly
+        />
+      </form>
+      <form className="form-style">
+        <select
           className="form-control"
           type="text"
           placeholder="Macheroni, Eggs, Pesto,..."
